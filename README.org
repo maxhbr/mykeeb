@@ -1,9 +1,23 @@
 * mykeeb
+** Why not an existing keeb
+- [[https://github.com/mattdibi/redox-keyboard][REDOX]]
+  - is very close
+    - no HotSwap in the open source variant
+- [[https://github.com/tadfisher/nyx-kb/][NYX]]
+- Kyria
+  - not OSS
+  - to less keys
+- [[https://github.com/omkbd/ErgoDash][ErgoDash]],
+- [[https://github.com/jpconstantineau/ErgoTravel][ErgoTravel]]
+- Zordiak is not OSS
+- [[https://github.com/Pekaso/fortitude60][fortitude60]]
+  - MCU is *Beetle USB 32u4* -> not supported by ZMK
+- [[https://github.com/KarlK90/yaemk-split-kb][YAEMK]]
+  - not supported by ZMK
 
-** Goals
-Design a PCB for a split keyboard, similar to REDOX, ErgoDash, ErgoTravel, Kyria (not OSS) and NYX.
 Other interesting Keyboards are Lily58, Lotus58, Sofle,
 
+** Goals
 - it *must* be fully OSS
 - it *must* support ZMK
   - it *could* have QMK support
@@ -23,24 +37,13 @@ Other interesting Keyboards are Lily58, Lotus58, Sofle,
   - preferred via Kailh sockets
 - MCU *should* be mounted visible in the middle
   - MCU *could* have two sockets to choose orientation per side
+    - I like them chip side up
   - MCU *should* use a standard interconnect like Pro Micro
 - it *should* have PCB support for a switch and battery connections
 - it *could* expose i2c for trackball support
 - it *could* have RGB-LED for feedback regarding activated layers or modifier
   - it *does not need* any further LED stuff
 
-*** Why not an existing keeb
-- REDOX
-  - is very close
-    - no HotSwap
-- Kyria
-  - not OSS
-  - to less keys
-- ErgoDash,
-- Zordiak is not OSS
-- https://github.com/Pekaso/fortitude60
-  - MCU is *Beetle USB 32u4* -> sot supported by ZMK
-- https://github.com/KarlK90/yaemk-split-kb
 
 
 ** How to start?
