@@ -1,0 +1,15 @@
+[submodule "submodules/redox-keyboard"]
+	path = submodules/redox-keyboard
+	url = https://github.com/mattdibi/redox-keyboard
+[submodule "submodules/nyx-kb"]
+	path = submodules/nyx-kb
+	url = https://github.com/tadfisher/nyx-kb
+[submodule "submodules/ErgoDash"]
+	path = submodules/ErgoDash
+	url = https://github.com/omkbd/ErgoDash
+[submodule "submodules/ErgoTravel"]
+	path = submodules/ErgoTravel
+	url = https://github.com/jpconstantineau/ErgoTravel
+[submodule "submodules/keyboard-pcb-guide"]
+	path = submodules/keyboard-pcb-guide
+	url = https://github.com/ruiqimao/keyboard-pcb-guide

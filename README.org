@@ -1,0 +1,48 @@
+* mykeeb
+
+** Goals
+Design a PCB for a split keyboard, similar to REDOX, ErgoDash, ErgoTravel, Kyria (not OSS) and NYX.
+Other interesting Keyboards are Lily58, Lotus58, Sofle,
+
+- it *must* be fully OSS
+- it *must* support ZMK
+  - it *could* have QMK support
+- it *must* support 3D printed case and switch plate
+- it *should* be split
+- it *must* have columnar staggered layout
+  - similar to Kyria or REDOX
+- it *should* have a lot of keys:
+  - it *must* have a thumb cluster
+  - it *must* have 6 cols
+    - it *should* have 7 cols
+  - it *should* have a Number row
+  - it *could* have arrow keys
+- it *should* have MX style switches
+- it *should* have HotSwap
+  - preferred via Kailh sockets
+- MCU *should* be mounted visible in the middle
+  - MCU *could* have two sockets to choose orientation per side
+- it *should* have PCB support for a switch and battery connections
+- it *could* expose i2c for trackball support
+- it *could* have RGB-LED for feedback regarding activated layers or modifier
+  - it *does not need* any further LED stuff
+
+*** Why not an existing keeb
+- REDOX
+  - is very close
+    - no HotSwap
+- Kyria
+  - not OSS
+  - to less keys
+- ErgoDash,
+- Zordiak is not OSS
+- https://github.com/Pekaso/fortitude60
+  - MCU is *Beetle USB 32u4* -> sot supported by ZMK
+
+
+** How to start?
+- base on something
+  - REDOX
+    - no HotSwap
+  - ErgoDash
+    - one less thumb key
