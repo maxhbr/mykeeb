@@ -13,3 +13,18 @@
 [submodule "submodules/keyboard-pcb-guide"]
 	path = submodules/keyboard-pcb-guide
 	url = https://github.com/ruiqimao/keyboard-pcb-guide
+[submodule "submodules/kicad_lib_tmk"]
+	path = submodules/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "submodules/keyboard_parts.pretty"]
+	path = submodules/keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "submodules/keebs.pretty"]
+	path = submodules/keebs.pretty
+	url = https://github.com/egladman/keebs.pretty
+[submodule "submodules/yaemk-split-kb"]
+	path = submodules/yaemk-split-kb
+	url = https://github.com/KarlK90/yaemk-split-kb
+[submodule "submodules/KiBot-CICD-Template"]
+	path = submodules/KiBot-CICD-Template
+	url = https://github.com/nerdyscout/KiBot-CICD-Template

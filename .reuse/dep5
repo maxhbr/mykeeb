@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mykeeb
+Upstream-Contact: maxhbr
+Source: github.com/maxhbr/mykeeb
+
+Files: pcb/*
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Copyright: 2022, maxhbr
+License: CERN-OHL-P-2.0
+
+Files: pcb/docs/* README.md
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Copyright: 2022, maxhbr
+License: CC-BY-SA-4.0
+
+Files: .gitignore .kibot/* platformio.ini
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Copyright: 2022, maxhbr
+License: CC0-1.0

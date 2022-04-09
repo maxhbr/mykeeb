@@ -17,11 +17,13 @@ Other interesting Keyboards are Lily58, Lotus58, Sofle,
     - it *should* have 7 cols
   - it *should* have a Number row
   - it *could* have arrow keys
+  - it *does not need* to have encoder support
 - it *should* have MX style switches
 - it *should* have HotSwap
   - preferred via Kailh sockets
 - MCU *should* be mounted visible in the middle
   - MCU *could* have two sockets to choose orientation per side
+  - MCU *should* use a standard interconnect like Pro Micro
 - it *should* have PCB support for a switch and battery connections
 - it *could* expose i2c for trackball support
 - it *could* have RGB-LED for feedback regarding activated layers or modifier
@@ -38,6 +40,7 @@ Other interesting Keyboards are Lily58, Lotus58, Sofle,
 - Zordiak is not OSS
 - https://github.com/Pekaso/fortitude60
   - MCU is *Beetle USB 32u4* -> sot supported by ZMK
+- https://github.com/KarlK90/yaemk-split-kb
 
 
 ** How to start?
@@ -46,3 +49,8 @@ Other interesting Keyboards are Lily58, Lotus58, Sofle,
     - no HotSwap
   - ErgoDash
     - one less thumb key
+- from scratch
+  - https://github.com/ruiqimao/keyboard-pcb-guide
+
+* Links:
+- https://github.com/diimdeep/awesome-split-keyboards
