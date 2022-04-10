@@ -7,7 +7,7 @@
 - Kyria
   - not OSS
   - to less keys
-- [[https://github.com/omkbd/ErgoDash][ErgoDash]],
+- [[https://github.com/omkbd/ErgoDash][ErgoDash]]
 - [[https://github.com/jpconstantineau/ErgoTravel][ErgoTravel]]
 - Zordiak is not OSS
 - [[https://github.com/Pekaso/fortitude60][fortitude60]]
@@ -25,26 +25,27 @@ Other interesting Keyboards are Lily58, Lotus58, Sofle,
 - it *should* be split
 - it *must* have columnar staggered layout
   - similar to Kyria or REDOX
-- it *should* have a lot of keys:
+- it *should* have _a lot_ of keys:
   - it *must* have a thumb cluster
+    - maybe a combination of REDOX-style and NYX-style
   - it *must* have 6 cols
-    - it *should* have 7 cols
+    - it *should* have 7 cols, i.e. an additional center column
   - it *should* have a Number row
   - it *could* have arrow keys
   - it *does not need* to have encoder support
 - it *should* have MX style switches
 - it *should* have HotSwap
   - preferred via Kailh sockets
-- MCU *should* be mounted visible in the middle
+- MCU *should* be mounted visible
   - MCU *could* have two sockets to choose orientation per side
     - I like them chip side up
+  - maybe similar to NYX, Kyria or crkbd
   - MCU *should* use a standard interconnect like Pro Micro
 - it *should* have PCB support for a switch and battery connections
 - it *could* expose i2c for trackball support
 - it *could* have RGB-LED for feedback regarding activated layers or modifier
   - it *does not need* any further LED stuff
-
-
+  - could also be done via display
 
 ** How to start?
 - base on something
