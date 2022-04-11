@@ -53,6 +53,9 @@ Other interesting Keyboards are Lily58, Lotus58, Sofle,
     - no HotSwap
   - ErgoDash
     - one less thumb key
+  - NYX
+    - has MX+Chock footprints, but does not fir 5pin MX
+    - uses Horizon EDA
 - from scratch
   - https://github.com/ruiqimao/keyboard-pcb-guide
 
